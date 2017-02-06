@@ -13,6 +13,10 @@ The classical Papers about adversarial nets
 
 :white_check_mark: [Adversarial Autoencoders] [[Paper]](http://arxiv.org/abs/1511.05644)[[Code]](https://github.com/musyoku/adversarial-autoencoder)
 
+
+:white_check_mark: [Generating Images with Perceptual Similarity Metrics based on Deep Networks] [[Paper]](https://arxiv.org/pdf/1602.02644v2.pdf)
+
+
 :white_check_mark: [Generating images with recurrent adversarial networks] [[Paper]](https://arxiv.org/abs/1602.05110)[[Code]](https://github.com/ofirnachum/sequence_gan)
 
 :white_check_mark: [Generative Visual Manipulation on the Natural Image Manifold] [[Paper]](https://people.eecs.berkeley.edu/~junyanz/projects/gvm/eccv16_gvm.pdf)[[Code]](https://github.com/junyanz/iGAN)
@@ -54,6 +58,8 @@ The classical Papers about adversarial nets
 
 
 ##Super-Resolution
+
+:white_check_mark: [Image super-resolution through deep learning ][[Code]](https://github.com/david-gpu/srez)(Just for face dataset)
 
 :white_check_mark: [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network] [[Paper]](https://arxiv.org/abs/1609.04802)[[Code]](https://github.com/leehomyc/Photo-Realistic-Super-Resoluton)（Using Deep residual network）
 
@@ -126,6 +132,8 @@ The classical Papers about adversarial nets
 
 :white_check_mark: [Unrolled Generative Adversarial Networks] [[Paper]](https://arxiv.org/abs/1611.02163)[[Code]](https://github.com/poolio/unrolled_gan)
 
+:white_check_mark: [Wasserstein GAN] [[Paper]](https://arxiv.org/abs/1701.07875)[[Code]](https://github.com/martinarjovsky/WassersteinGAN)
+
 
 ##3D 
 
@@ -137,31 +145,6 @@ The classical Papers about adversarial nets
 
 :white_check_mark: [Coupled Generative Adversarial Networks] [[Paper]](http://mingyuliu.net/)[[Caffe Code]](https://github.com/mingyuliutw/CoGAN)[[Tensorflow Code]](https://github.com/andrewliao11/CoGAN-tensorflow)（NIPS）
 
-
-#Adversarial Examples
-
-:white_check_mark: [Intriguing properties of neural networks] [[Paper]](http://arxiv.org/abs/1312.6199)
-
-:white_check_mark: [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images] [[Paper]](https://arxiv.org/abs/1412.1897)
-
-:white_check_mark: [Explaining and Harnessing Adversarial Examples] [[Paper]](http://arxiv.org/abs/1412.6572)
-
-:white_check_mark: [Adversarial examples in the physical world] [[Paper]](http://arxiv.org/abs/1607.02533)
-
-
-:white_check_mark: [Universal adversarial perturbations ] [[Paper]](https://arxiv.org/abs/1610.08401)
-
-:white_check_mark: [Robustness of classifiers: from adversarial to random noise ] [[Paper]](https://arxiv.org/abs/1608.08967)
-
-:white_check_mark: [DeepFool: a simple and accurate method to fool deep neural networks] [[Paper]](https://arxiv.org/abs/1511.04599)
-
-:white_check_mark: [2] [[PDF]](http://www.iangoodfellow.com/slides/2016-12-9-AT.pdf) (NIPS Goodfellow Slides)
-
-:white_check_mark: [The Limitations of Deep Learning in Adversarial Settings] [[Paper]](https://arxiv.org/abs/1511.07528) [[Code]](https://github.com/openai/cleverhans/blob/master/tutorials/mnist_tutorial_jsma.md)
-
-:white_check_mark: [Practical Black-Box Attacks against Deep Learning Systems using Adversarial Examples] [[Paper]](https://arxiv.org/abs/1602.02697)
-
-
 #Project 
 
 :white_check_mark: [cleverhans] [[Code]](https://github.com/openai/cleverhans)(A library for benchmarking vulnerability to adversarial examples)
@@ -172,12 +155,13 @@ The classical Papers about adversarial nets
 
 #Blogs
 
-:white_check_mark: [1](http://www.inference.vc/)
-
-:white_check_mark: [2](http://distill.pub/2016/deconv-checkerboard/)
-
-:white_check_mark: [3](http://www.yingzhenli.net/home/blog/?p=421http://www.yingzhenli.net/home/blog/?p=421)
-
+| Author | Address |
+|---- | ---|----|
+| **inFERENCe** |  [Adversarial network](http://www.inference.vc/)  |
+| **inFERENCe** |  [InfoGan](http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/)  |
+| **distill** |  [Deconvolution and Image Generation](http://distill.pub/2016/deconv-checkerboard/)  |
+| **yingzhenli** |  [Gan theory](http://www.yingzhenli.net/home/blog/?p=421http://www.yingzhenli.net/home/blog/?p=421)  |
+| **OpenAI** |  [Generative model](https://openai.com/blog/generative-models/)  |
 
 
 #Other
@@ -186,6 +170,20 @@ The classical Papers about adversarial nets
 
 :white_check_mark: [2] [[PDF]](https://drive.google.com/file/d/0BxKBnD5y2M8NbzBUbXRwUDBZOVU/view)(NIPS Lecun Slides)
 
+#Adversarial Examples
+
+| Title | Paper | Code |
+|---- | ---|----|----|
+| **Intriguing properties of neural networks** |  [Paper](http://arxiv.org/abs/1312.6199)  |[Code]|
+| **Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images** |  [Paper](https://arxiv.org/abs/1412.1897)  |[Code]|
+| **Explaining and Harnessing Adversarial Examples** |  [Paper](http://arxiv.org/abs/1412.6572)  |[Code]|
+| **Adversarial examples in the physical world** |  [Paper](http://arxiv.org/abs/1607.02533)  |[Code]|
+| **Universal adversarial perturbations** |  [Paper](https://arxiv.org/abs/1610.08401)  |[Code]|
+| **Robustness of classifiers: from adversarial to random noise** |  [Paper](https://arxiv.org/abs/1608.08967)  |[Code]|
+| **DeepFool: a simple and accurate method to fool deep neural networks** |  [Paper](https://arxiv.org/abs/1511.04599)  |[Code]|
+| **Goodfellow Slides** |  [Paper](http://www.iangoodfellow.com/slides/2016-12-9-AT.pdf)  |[Code]|
+| **The Limitations of Deep Learning in Adversarial Settings** |  [Paper](https://arxiv.org/abs/1511.07528)  |[Code](https://github.com/openai/cleverhans/blob/master/tutorials/mnist_tutorial_jsma.md)|
+| **Practical Black-Box Attacks against Deep Learning Systems using Adversarial Examples** |  [Paper](https://arxiv.org/abs/1602.02697)  |[Code]|
 
 
 
